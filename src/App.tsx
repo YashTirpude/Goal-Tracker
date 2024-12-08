@@ -1,7 +1,7 @@
 import { Container, Typography } from "@mui/material";
 import AddGoalForm from "./components/AddGoalForm";
 import GoalList from "./components/GoalList";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 const App = () => {
   // Ensure the background is applied globally
